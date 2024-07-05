@@ -1,0 +1,32 @@
+#filter-input{
+    width: 77vw;
+    margin-left: 4rem;
+}
+
+#card-position{
+    place-content: center;
+}
+
+.card-design{
+    background-color: ghostwhite;
+    width: 20rem;
+    height: 31rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card-design:hover{
+    border-bottom: none;
+    border-top: 2px solid blue;
+}
+
+.card-design>div>h4{
+    font-family: monospace;
+}
+
+.card-single-image{
+    height: 12rem;
+    width: 10rem;
+}
+
+.card-price-button{
+    width: 12rem;
+}

@@ -1,0 +1,22 @@
+/* Carousel */
+#carousel-row{
+    background-color: #c9c9c9;
+}
+.carousel-div{
+    padding: 1rem 3rem;
+}
+.picsum-img-wrapper>img{
+    height: 71vh;
+    width: 100%;
+}
+
+/* Written Section of HomePage */
+#desc-div{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1rem 3rem;
+    align-self: center;
+}
+
+#desc-div>button{
+    border-radius: 0;
+}

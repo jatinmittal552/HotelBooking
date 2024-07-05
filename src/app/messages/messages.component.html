@@ -1,0 +1,22 @@
+<div id="message-body">
+    <div class="container py-5">
+        <div class="py-1">
+            <div id="message-upper-body">
+                <h2 class="text-center mt-1">Your Messages</h2>
+                <hr class="mx-auto">
+            </div>
+        </div>
+    
+        <div class="card mt-3" *ngFor="let msgg of listOfMessages">
+            <div class="card-header">
+                <div class="d-flex justify-content-between">
+                    <h4>{{msgg.fname}}</h4>
+                    <!-- <p>{{msgg.createdtime}}</p> -->
+                </div>
+            </div>
+            <div class="card-body">
+                <p>{{msgg.msg}}</p>
+            </div>
+        </div>
+    </div>
+</div>

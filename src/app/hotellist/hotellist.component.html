@@ -1,0 +1,22 @@
+<div class="container my-3">
+    <div class="col-lg-12">
+        <input type="text" class="form-control my-4" [(ngModel)]="filteredString" placeholder="Filter by Location(Delhi,Mumbai,Bangalore)" id="filter-input" />
+    </div>
+    <div class="row" id="card-position">
+        <div *ngFor="let list of fulllist | filter:filteredString" class="card col-sm-6 col-lg-4 mx-2 my-2 p-0 card-design">
+            <div class="card-header">
+                <h5 class="text-center text-danger mb-0">{{list._name}}</h5>
+            </div>
+            <div class="card-body text-center">
+                <img [src]="list.imgfirst" alt="image-1" class="card-single-image">
+                <p class="text-muted mb-0">Location:{{list._location}}</p>
+                <p class="text-muted">Rating:{{list.rating}}/10</p>
+                <hr>
+                <p class="text-muted mb-0">{{list._info}}</p>
+            </div>
+            <div class="card-footer text-center">
+                <button (click)="giveId(list)" class="btn btn-outline-danger card-price-button" routerLink="/confirmation">{{list.price | currency:'INR'}}</button>
+            </div>
+        </div>
+    </div>
+</div>

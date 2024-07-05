@@ -1,0 +1,22 @@
+<div id="login-body" class="py-1">
+    <div id="login-upper-body">
+        <h2 class="text-center my-3">Login</h2>
+        <hr class="mx-auto">
+    </div>
+    <div class="card mx-auto my-5" id="login-lower-card">
+        <div class="card-body px-5 py-5">
+            <form #LoginForm="ngForm">
+                <!-- {{LoginForm.value | json}} -->
+                <div class="form-group mb-2">
+                    <label for="email">Email ID</label>
+                    <input #email="ngModel" [class.is-invalid]="email.invalid && email.touched" type="email" name="email" id="email" placeholder="Enter Email ID" class="form-control" ngModel required>
+                </div>
+                <div class="form-group mb-2">
+                    <label for="password">Password</label>
+                    <input #password="ngModel" [class.is-invalid]="password.invalid && password.touched" type="password" name="password" id="password" placeholder="Enter Password" class="form-control" ngModel required>
+                </div>
+                <button class="btn btn-danger mt-2 mb-1" routerLink="/homepage">LogIn</button>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+#booking-page{
+    background-color: #c9c9c9;
+}
+/* .confirm-carousel-div>div>h6,p{
+    font-family: 'Courier New', Courier, monospace;
+} */
+
+.booking-image{
+    height: 65vh;
+    width: 100%;
+}
+#booking-card{
+    height: 100%;
+}
+#booking-card span{
+    font-weight: bold;
+}

@@ -1,0 +1,12 @@
+footer>div{
+    height: 4rem;
+    color: white;
+    font-size: 16px;
+}
+footer>div>h5>a{
+    font-size: 17px;
+    text-decoration: none;
+}
+footer>div>h5>a:hover{
+    text-decoration: underline;
+}

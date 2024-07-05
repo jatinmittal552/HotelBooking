@@ -1,0 +1,17 @@
+#msg-btn{
+    position:absolute;
+    top: 6rem;
+    right: 1rem;
+}
+
+
+/* Main Style of Contact Forn */
+#contact-body{
+    background-color: #c9c9c9;
+}
+#contact-upper-body>hr {
+    width: 20rem;
+}
+#contact-lower-card{
+    width: 50vw;
+}

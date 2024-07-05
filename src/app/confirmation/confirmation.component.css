@@ -1,0 +1,16 @@
+#confirm-carousel-row{
+    background-color: #c9c9c9;
+}
+/* .confirm-carousel-div>div>h6,p{
+    font-family: 'Courier New', Courier, monospace;
+} */
+.confirm-page-carousel{
+    height: 65vh;
+    width: 100%;
+}
+#confirm-desc-div{
+    height: 100%;
+}
+#confirm-desc-div span{
+    font-weight: bold;
+}
